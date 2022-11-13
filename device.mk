@@ -31,8 +31,6 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/configs/init/victoria.rc:$(TARGET_COPY_OUT_ODM)/etc/init/victoria.rc
 
-
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(DEVICE_PATH)/overlay
 
